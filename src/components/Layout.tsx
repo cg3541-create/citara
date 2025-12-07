@@ -7,7 +7,7 @@ export function Layout() {
         <div className="min-h-screen text-slate-200 antialiased selection:bg-purple-500/30">
             <StarBackground />
             <Navbar />
-            <main>
+            <main className="pt-20">
                 <Outlet />
             </main>
             <footer className="border-t border-white/10 py-8 text-center text-sm text-slate-500">
